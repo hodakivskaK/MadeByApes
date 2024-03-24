@@ -65,7 +65,7 @@ export const Mint = () => {
             id="discord"
             name="discord"
             type="discord"
-            placeholder="@username"
+            placeholder="@USERNAME"
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.discord}
@@ -103,7 +103,7 @@ export const Mint = () => {
             id="walletAddress"
             name="walletAddress"
             type="walletAddress"
-            placeholder="wallet Address"
+            placeholder="WALLET ADDRESS"
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.walletAddress}
