@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MadeByApes/static/css/main.45142099.css",
-    "main.js": "/MadeByApes/static/js/main.63b5fed5.js",
+    "main.css": "/MadeByApes/static/css/main.21b43114.css",
+    "main.js": "/MadeByApes/static/js/main.49392bd8.js",
     "static/media/collection_card_2.png": "/MadeByApes/static/media/collection_card_2.352236a2d7927f6c15ae.png",
     "static/media/collection_card_8.png": "/MadeByApes/static/media/collection_card_8.54cf2bb4913218d0b225.png",
     "static/media/collection_card_6.png": "/MadeByApes/static/media/collection_card_6.be80e806851ab79971ce.png",
@@ -41,11 +41,11 @@
     "static/media/XLogo.svg": "/MadeByApes/static/media/XLogo.f006b2625e12121b26bc9397c994c2b9.svg",
     "static/media/add-sharp.svg": "/MadeByApes/static/media/add-sharp.7faae7ad848ab720ccdb82198f1a82f8.svg",
     "static/media/up-left-arrow.svg": "/MadeByApes/static/media/up-left-arrow.28ab298e95af0e78a52a9c0db1206550.svg",
-    "main.45142099.css.map": "/MadeByApes/static/css/main.45142099.css.map",
-    "main.63b5fed5.js.map": "/MadeByApes/static/js/main.63b5fed5.js.map"
+    "main.21b43114.css.map": "/MadeByApes/static/css/main.21b43114.css.map",
+    "main.49392bd8.js.map": "/MadeByApes/static/js/main.49392bd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.45142099.css",
-    "static/js/main.63b5fed5.js"
+    "static/css/main.21b43114.css",
+    "static/js/main.49392bd8.js"
   ]
 }
