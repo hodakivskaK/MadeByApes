@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+  font-family: 'RightGroteskWideMedium';
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 160px;
+  }
+}

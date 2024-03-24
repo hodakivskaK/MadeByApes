@@ -1,0 +1,167 @@
+.mindMap__container {
+  margin-top: 135px;
+}
+
+.mindMap__sliderWrapper {
+  margin-top: 24px;
+}
+
+.mindMap__card,
+.mindMap__cardLink {
+  position: relative;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+  width: 216px;
+  height: 242px;
+}
+
+.mindMap__cardLink {
+  background-color: #dc3b5a;
+}
+
+.mindMap__arrowIcon {
+  position: absolute;
+  width: 24px;
+  top: 24px;
+  right: 12px;
+}
+
+.mindMap__cardText {
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  width: 193px;
+  text-transform: uppercase;
+  font-family: 'MessinaSans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+.mindMap__cardTitle {
+  position: absolute;
+  bottom: 24px;
+  left: 12px;
+  font-family: 'rightGrotesk';
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+}
+
+.mindMap__arrowIcon {
+  width: 24px;
+  width: 24px;
+}
+
+.mindMap__btnContainer {
+  margin-top: 24px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.mindMap__cardBtn {
+  padding: 0;
+  border: none;
+  font-family: 'BiroScript';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: inherit;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.mindMap__cardBtn:hover,
+.mindMap__cardBtn:focus {
+  cursor: pointer;
+  color: #dc3b5a;
+}
+
+@media (min-width: 768px) {
+  .mindMap__container {
+    margin-top: 80px;
+  }
+
+  .mindMap__collection {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 284px);
+    grid-auto-rows: 242px;
+    gap: 24px;
+  }
+
+  .mindMap__collection .mindMap__card:last-child {
+    background-color: #dc3b5a;
+  }
+
+  .mindMap__collection .mindMap__card:last-child:hover {
+    cursor: pointer;
+  }
+
+  .mindMap__card {
+    position: relative;
+    box-sizing: border-box;
+    height: 242px;
+    width: 284px;
+  }
+
+  .mindMap__cardText {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    left: auto;
+    width: 128px;
+  }
+
+  .mindMap__cardTitle {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+  }
+
+  .mindMap__arrowIcon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mindMap__container {
+    margin-top: 120px;
+  }
+
+  .mindMap__collection {
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 504px);
+    grid-auto-rows: 480px;
+  }
+
+  .mindMap__card {
+    box-sizing: border-box;
+    height: 480px;
+    width: 504px;
+    padding: 24px 24px;
+  }
+
+  .mindMap__cardTitle {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: left;
+  }
+
+  .mindMap__cardText {
+    width: 228px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .mindMap__arrowIcon {
+    width: 64px;
+    width: 64px;
+  }
+}

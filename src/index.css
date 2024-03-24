@@ -1,0 +1,90 @@
+@import-normalize;
+
+@font-face {
+  font-family: 'rightGrotesk';
+  src: url('../public/fonts/RightGrotesk/RightGrotesk-Medium.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RightGroteskWideMedium';
+  src: url('../public/fonts/RightGrotesk/RightGrotesk-CompactBlack.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MessinaSans';
+  src: url('../public/fonts/MessinaSans/MessinaSansMono-Book.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MessinaSansRegular';
+  src: url('../public/fonts/MessinaSans/MessinaSansMono-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BiroScript';
+  src: url('../public/fonts/BiroScript/BiroScriptUSPlus-Bold.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    'rightGrotesk',
+    'MessinaSans' 'BiroScript',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

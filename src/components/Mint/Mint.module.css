@@ -1,0 +1,166 @@
+.mint__container {
+  margin-top: 60px;
+}
+
+.mint__text {
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-family: 'MessinaSans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+
+.mint__svg {
+  display: block;
+  height: 36px;
+  width: 36px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.mint__form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+  width: 216px;
+}
+
+.mint__inputBox {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.mint__inputIcon_wrapper {
+  width: 64px;
+  background-color: #1e1e1e;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint__inputIcon {
+  width: 24px;
+}
+
+.mint__form_input,
+.mint__form_inputError {
+  border: #1e1e1e solid 1px;
+  width: 100%;
+  height: 48px;
+  border-radius: 0 12px 12px 0;
+  background-color: inherit;
+
+  color: #ffffff;
+  padding-left: 24px;
+  text-transform: uppercase;
+  font-family: 'MessinaSans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.mint__form_inputValid {
+  border-color: #fff;
+}
+
+.mint__form_input::placeholder,
+.mint__form_inputError {
+  color: #ffffff3d;
+}
+
+.mint__form_inputError {
+  border: 1px solid #dc3b5a;
+}
+
+.mint__inputError {
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+
+  font-family: 'MessinaSans';
+  font-size: 10px;
+  color: #dc3b5a;
+}
+
+.mint__form_btn {
+  border-radius: 12px;
+  height: 41px;
+  background-color: #dc3b5a;
+  border: none;
+
+  font-family: 'rightGrotesk';
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.mint__form_btn:hover {
+  cursor: pointer;
+  color: #1e1e1e;
+}
+
+@media (min-width: 768px) {
+  .mint__container {
+    margin-top: 80px;
+  }
+
+  .mint__svg {
+    margin-top: 40px;
+  }
+
+  .mint__text {
+    margin: 0 auto;
+    margin-top: 24px;
+    display: block;
+    width: 349px;
+  }
+
+  .mint__form {
+    margin-top: 24px;
+    width: 248px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mint__container {
+    margin-top: 120px;
+  }
+
+  .mint__svg {
+    margin-top: 80px;
+  }
+
+  .mint__text {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 29px;
+    width: 581px;
+  }
+
+  .mint__form {
+    width: 397px;
+    margin-top: 40px;
+    gap: 24px;
+  }
+
+  .mint__form_input {
+    height: 64px;
+    font-size: 16px;
+  }
+
+  .mint__inputError {
+    font-size: 12px;
+  }
+
+  .mint__form_btn {
+    height: 70px;
+    font-size: 28px;
+  }
+}
