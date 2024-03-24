@@ -7,12 +7,15 @@ Technologies Used:
 - React Router (for smooth scrolling);
 - Formik (for form validation);
 - React Hot Toast (for notifications);
-- Other dependencies: 
-   1."nanoid" for generating unique identifiers;
-   2. "react-scroll" for smooth scrolling behavior;
-   3. "react-slick" and "slick-carousel" for implementing responsive sliders;
-   4. "yup" for data schema validation. 
+- Other dependencies:
 
+1. **nanoid**: A library used for generating unique identifiers.
+
+2. **react-scroll**: A library utilized for implementing smooth scrolling behavior.
+
+3. **react-slick** and **slick-carousel**: Libraries employed for creating responsive sliders.
+
+4. **yup**: A library utilized for data schema validation.
 
 Features:
 - Responsive design for mobile, tablet, and desktop screens.
